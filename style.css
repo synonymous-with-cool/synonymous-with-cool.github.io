@@ -1,0 +1,36 @@
+/* 7bcc78 */
+/* f8fa87 */
+
+body {
+	background-color: #7bcc78;
+}
+
+.page {
+	width: 80%;
+	max-width: 1080px;
+	min-width: 700px;
+	margin: 50px auto;
+	/*left: 50px;*/
+	text-align: left;
+	background-color: #7bcc78;
+	border-radius: 5px; 
+}
+
+#user-input {
+	position: absolute;
+	bottom: 100px;
+}
+
+.todo-list-class {
+	text-align: left;
+	top: 50px;
+}
+
+.done-list-class {
+	position: absolute;
+	text-align: left;
+	left: 450px;
+	/*bottom: 58px;*/
+	top: 29;
+	/* DO NOT MESS WITH THESE */
+}
