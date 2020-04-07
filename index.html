@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>TODO LIST</title>
+</head>
+
+<body>
+
+	<div class="page">
+
+		<div oncontextmenu="return false;"></div>
+
+		<div class="todo-list-class">
+			<h1>TODO:</h1>
+			<ul id="todo-list">
+			</ul>
+		</div>
+
+		<div class="done-list-class">
+			<h1>DONE:</h1>
+			<ul id="done-list">
+			</ul>
+		</div>
+
+		<form id="user-input" onsubmit="return false">
+			<input type="text" name="input-box" id="input-box" maxlength="50" placeholder="New item">
+			<input type="submit" value="Add" id="add-button">
+		</form>
+
+	</div>
+
+	<script type="text/javascript" defer src="./script.js"></script>
+
+</body>
+
+</html>
